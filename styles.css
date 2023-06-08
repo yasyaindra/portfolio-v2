@@ -1,0 +1,53 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600&display=swap");
+
+html {
+  scroll-behavior: smooth;
+  max-width: 100%;
+  overflow-x: hidden;
+}
+
+body {
+  font-family: "Poppins";
+  background-color: #161616;
+  color: #fff;
+}
+
+.header-link {
+  transition: all 0.3s ease;
+}
+.header-link:hover {
+  color: #fafafa !important;
+}
+
+.project-button {
+  background-color: #1a1a1a;
+  height: 60px;
+  text-align: center;
+  line-height: 60px;
+  width: 216px;
+  color: #b5b5b5;
+  border: 0.4px solid #b5b5b5;
+  transition: all 0.3s ease;
+}
+
+.project-button:hover {
+  background-color: #1a1a1a;
+  height: 60px;
+  text-align: center;
+  line-height: 60px;
+  width: 216px;
+  color: #b5b5b5;
+  border: 0.4px solid #b5b5b5;
+  cursor: pointer;
+  scale: 0.9;
+}
+
+.brand-section {
+  background-color: #1a1a1a;
+  height: 180px;
+  max-width: 100%;
+}
+
+.card-skill-item {
+  background-color: #1a1a1a;
+}
