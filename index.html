@@ -10,6 +10,7 @@
       integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM"
       crossorigin="anonymous"
     />
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet" />
     <link rel="stylesheet" href="styles.css" />
   </head>
   <body>
@@ -42,7 +43,10 @@
                 Get In Touch</a
               >
             </div>
-            <span style="font-size: 14px; color: #616161">
+            <span
+              style="font-size: 14px; color: #616161"
+              class="d-lg-block d-none"
+            >
               <a
                 href=""
                 class="text-decoration-none header-link"
@@ -64,6 +68,29 @@
                 >Github</a
               >
             </span>
+            <span
+              style="font-size: 15px; color: #616161"
+              class="d-block d-lg-none"
+            >
+              <a
+                href=""
+                class="text-decoration-none header-link"
+                style="font-size: 28px; color: #616161"
+                ><i class="fa-brands fa-instagram"></i>
+              </a>
+              <a
+                href=""
+                class="text-decoration-none header-link mx-2"
+                style="font-size: 28px; color: #616161"
+                ><i class="fa-brands fa-linkedin"></i
+              ></a>
+              <a
+                href=""
+                class="text-decoration-none header-link"
+                style="font-size: 28px; color: #616161"
+                ><i class="fa-brands fa-github"></i
+              ></a>
+            </span>
           </div>
           <div style="height: 1px; background-color: #252525"></div>
         </div>
@@ -71,20 +98,25 @@
         <!-- Header -->
         <div class="row justify-content-center mt-5">
           <div
-            class="col-lg-6 text-center d-flex flex-column align-items-center"
+            class="col col-lg-6 text-center d-flex flex-column align-items-center"
           >
             <img
               src="img/indra.png"
+              data-aos="fade-up"
               alt=""
               class="img-fluid mb-3"
               style="height: 150px; width: 150px; border-radius: 50%"
             />
-            <span class="text-secondary" style="font-size: 12px"
+            <span
+              class="text-secondary"
+              style="font-size: 12px"
+              data-aos="fade-up"
               >Hi I'm Indra</span
             >
             <h1
               style="font-size: 50px; color: #b5b5b5"
-              class="text-center mt-3"
+              class="text-center mt-3 intro-profile"
+              data-aos="fade-up"
             >
               Building digital products, brands, and experience.
             </h1>
@@ -100,29 +132,27 @@
       </div>
     </div>
     <!-- Brand Section -->
-    <div class="row mt-5 mb-5">
-      <div class="col-lg brand-section d-flex align-items-center">
-        <div>
-          <img src="img/A1.svg" alt="" class="img-fluid p-5" />
-        </div>
-        <div>
-          <img src="img/A2-2.svg" alt="" class="img-fluid p-5" />
-        </div>
-        <div>
-          <img src="img/A4-1.svg" alt="" class="img-fluid p-5" />
-        </div>
-        <div>
-          <img src="img/A6-3.svg" alt="" class="img-fluid p-5" />
-        </div>
-        <div>
-          <img src="img/A3-1.svg" alt="" class="img-fluid p-5" />
-        </div>
-        <div>
-          <img src="img/A5-3.svg" alt="" class="img-fluid p-5" />
-        </div>
-        <div>
-          <img src="img/A7-3.svg" alt="" class="img-fluid p-5" />
-        </div>
+    <div class="row mt-5 mb-5 justify-content-center" data-aos="fade-right">
+      <div class="col-6 col-lg">
+        <img src="img/A1.png" alt="" class="img-fluid p-5" />
+      </div>
+      <div class="col-6 col-lg">
+        <img src="img/A2-2.png" alt="" class="img-fluid p-5" />
+      </div>
+      <div class="col-6 col-lg">
+        <img src="img/A4-1.png" alt="" class="img-fluid p-5" />
+      </div>
+      <div class="col-6 col-lg">
+        <img src="img/A6-3.png" alt="" class="img-fluid p-5" />
+      </div>
+      <div class="col-6 col-lg">
+        <img src="img/A3-1.png" alt="" class="img-fluid p-5" />
+      </div>
+      <div class="col-6 col-lg">
+        <img src="img/A5-3.png" alt="" class="img-fluid p-5" />
+      </div>
+      <div class="col-6 col-lg">
+        <img src="img/A7-3.png" alt="" class="img-fluid p-5" />
       </div>
     </div>
     <!-- End Brand Section -->
@@ -133,7 +163,7 @@
         to create impactful results.
       </h2>
       <div class="row justify-content-center">
-        <div class="col-lg-3">
+        <div class="col-6 col-lg-3 mb-3" data-aos="fade-down">
           <div class="card card-skill-item" style="height: 350px">
             <div class="card-body text-white d-flex flex-column">
               <div class="mt-auto">
@@ -147,7 +177,7 @@
             </div>
           </div>
         </div>
-        <div class="col-lg-3">
+        <div class="col-6 col-lg-3 mb-3" data-aos="fade-down">
           <div class="card card-skill-item" style="height: 350px">
             <div class="card-body text-white d-flex flex-column">
               <div class="mt-auto">
@@ -161,7 +191,7 @@
             </div>
           </div>
         </div>
-        <div class="col-lg-3">
+        <div class="col-6 col-lg-3 mb-3" data-aos="fade-down">
           <div class="card card-skill-item" style="height: 350px">
             <div class="card-body text-white d-flex flex-column">
               <div class="mt-auto">
@@ -175,7 +205,7 @@
             </div>
           </div>
         </div>
-        <div class="col-lg-3">
+        <div class="col-6 col-lg-3 mb-3" data-aos="fade-down">
           <div class="card card-skill-item" style="height: 350px">
             <div class="card-body text-white d-flex flex-column">
               <div class="mt-auto">
@@ -197,8 +227,14 @@
     </div>
     <!-- End Skill Section -->
     <!-- Contact Us -->
-    <div class="row justify-content-center" style="height: 60vh">
-      <div class="col-lg-9 mt-auto mb-auto mx-auto justify-content-center">
+    <div
+      class="row justify-content-center"
+      style="height: 60vh"
+      data-aos="fade-down"
+    >
+      <div
+        class="col-9 col-lg-9 mt-auto mb-auto mx-auto justify-content-center"
+      >
         <h1 class="text-center" style="color: #b5b5b5">
           Tell me about your next project
         </h1>
@@ -228,7 +264,10 @@
                 ©️ 2023 All rights reserved</a
               >
             </div>
-            <span style="font-size: 14px; color: #616161">
+            <span
+              style="font-size: 14px; color: #616161"
+              class="d-lg-block d-none"
+            >
               <a
                 href=""
                 class="text-decoration-none header-link"
@@ -250,12 +289,39 @@
                 >Github</a
               >
             </span>
+            <span
+              style="font-size: 15px; color: #616161"
+              class="d-block d-lg-none"
+            >
+              <a
+                href=""
+                class="text-decoration-none header-link"
+                style="font-size: 28px; color: #616161"
+                ><i class="fa-brands fa-instagram"></i>
+              </a>
+              <a
+                href=""
+                class="text-decoration-none header-link mx-2"
+                style="font-size: 28px; color: #616161"
+                ><i class="fa-brands fa-linkedin"></i
+              ></a>
+              <a
+                href=""
+                class="text-decoration-none header-link"
+                style="font-size: 28px; color: #616161"
+                ><i class="fa-brands fa-github"></i
+              ></a>
+            </span>
           </div>
           <div style="height: 1px; background-color: #252525"></div>
         </div>
       </div>
     </div>
     <!-- End Footer -->
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+      AOS.init();
+    </script>
     <script
       src="https://kit.fontawesome.com/4c03683015.js"
       crossorigin="anonymous"

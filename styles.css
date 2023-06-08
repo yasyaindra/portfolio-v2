@@ -51,3 +51,7 @@ body {
 .card-skill-item {
   background-color: #1a1a1a;
 }
+
+.img-fluid {
+  width: 100%;
+}
